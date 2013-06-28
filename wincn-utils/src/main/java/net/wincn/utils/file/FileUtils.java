@@ -168,8 +168,6 @@ public final class FileUtils {
 		// }
 		// }
 
-		String path = "test.pdf";
-
 		// com/app.*$
 
 		// com/app/.*$
