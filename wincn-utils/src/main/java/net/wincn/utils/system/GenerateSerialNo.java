@@ -1,5 +1,7 @@
 package net.wincn.utils.system;
 
+import java.io.IOException;
+
 import net.wincn.utils.exception.UtilsException;
 
 import org.hyperic.sigar.SigarException;
@@ -13,6 +15,14 @@ import org.hyperic.sigar.SigarException;
  * @createDate 2013-6-27 下午1:31:43
  */
 public class GenerateSerialNo {
+	static {
+		// 先将需要的库加入到临时环境变量
+		try {
+			SystemPropUtils.addDir(GenerateSerialNo.class.getClassLoader().getResource("").getPath() + "/sigar/solib");
+		} catch (IOException e) {
+			e.printStackTrace();
+		}
+	}
 
 	/**
 	 * 产生序列号（cpuNO+hardNO+orardNO）

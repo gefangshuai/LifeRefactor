@@ -1,14 +1,14 @@
 #Fat Jar Configuration File
-#Thu Jun 27 17:24:08 CST 2013
+#Fri Jun 28 16:48:24 CST 2013
 onejar.license.required=true
 manifest.classpath=
 manifest.removesigners=true
 onejar.checkbox=false
 jarname=wincn-utils_fat.jar
 manifest.mergeall=true
-manifest.mainclass=
+manifest.mainclass=net.wincn.utils.swing.SerialGenerate.App
 manifest.file=<createnew>
 jarname.isextern=false
 onejar.expand=
-excludes=<po|wincn-utils>~net/~wincn/~utils/~classes/;<po|wincn-utils>~net/~wincn/~utils/~examples/;<po|wincn-utils>~net/~wincn/~utils/~file/;<po|wincn-utils>~net/~wincn/~utils/~swing/;<po|wincn-utils>~sigar/
+excludes=<po|wincn-utils>~exe/;<po|wincn-utils>~net/~wincn/~utils/~classes/;<po|wincn-utils>~net/~wincn/~utils/~examples/;<po|wincn-utils>~net/~wincn/~utils/~file/;<cl|D\:\\mydata\\git_workspace\\LifeRefactor\\wincn-crypto>
 includes=

@@ -348,6 +348,11 @@
 				<artifactId>sigar</artifactId>
 				<version>${sigar.version}</version>
 			</dependency>
+			<dependency>
+				<groupId>org.quartz-scheduler</groupId>
+				<artifactId>quartz</artifactId>
+				<version>2.2.0</version>
+			</dependency>
 			<!-- THE THIRD SUPPORT end -->
 			<!-- Test -->
 			<dependency>

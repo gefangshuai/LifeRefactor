@@ -11,10 +11,10 @@ import org.junit.Test;
  * @createDate 2013-6-24 下午3:32:23
  */
 public class ExcelCoreTest {
-	
+
 	@Test
 	public void createExcel() {
-		new ExcelCore().createExcel("F:/test/jxl/1.xls", "table1");
+		// new ExcelCore().createExcel("F:/test/jxl/1.xls", "table1");
 	}
-	
+
 }
