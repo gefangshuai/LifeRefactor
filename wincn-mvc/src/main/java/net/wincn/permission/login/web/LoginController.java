@@ -2,7 +2,7 @@ package net.wincn.permission.login.web;
 
 import javax.servlet.http.HttpSession;
 
-import org.apache.shiro.session.mgt.SessionManager;
+//import org.apache.shiro.session.mgt.SessionManager;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Controller;
 import org.springframework.ui.ModelMap;
@@ -24,8 +24,8 @@ import net.wincn.permission.user.bean.User;
 public class LoginController {
 	@Autowired
 	private LoginService loginService;
-	@Autowired
-	SessionManager sessionManager;
+//	@Autowired
+//	SessionManager sessionManager;
 
 	/**
 	 * 用户登录页面
